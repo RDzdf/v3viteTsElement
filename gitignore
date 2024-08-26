@@ -1,0 +1,50 @@
+# 忽略所有 node_modules 目录
+node_modules/
+
+# 忽略所有 dist 目录，这是 Vite 的默认构建输出目录
+dist/
+
+# 忽略所有 .DS_Store 文件（Mac OS）
+.DS_Store
+
+# 忽略所有 .idea 目录（IntelliJ IDEA）
+.idea/
+
+# 忽略所有 .vscode 目录（Visual Studio Code）
+.vscode/
+
+# 忽略所有 .eslintcache 文件
+.eslintcache
+
+# 忽略所有 yarn.lock 文件
+yarn.lock
+
+# 忽略所有 pnpm-lock.yaml 文件
+pnpm-lock.yaml
+
+# 忽略所有 package-lock.json 文件
+package-lock.json
+
+# 忽略所有 .npmrc 文件
+.npmrc
+
+# 忽略所有 .yarnrc 文件
+.yarnrc
+
+# 忽略所有 .yarnrc.yml 文件
+.yarnrc.yml
+
+# 忽略所有 .env 文件
+.env
+
+# 忽略所有 .env.* 文件
+.env.*
+
+# 忽略所有 tsconfig.build.json 文件
+tsconfig.build.json
+
+# 忽略所有 tsconfig.json 文件
+tsconfig.json
+
+# 忽略所有 vite.config.* 文件
+; vite.config.*
