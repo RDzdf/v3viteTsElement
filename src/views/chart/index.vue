@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>表格</h1>
+      <h1>图表</h1>
     </div>
   </template>
   
@@ -8,6 +8,6 @@
   import { defineComponent } from 'vue';
   
   export default defineComponent({
-    name: 'HomeView',
+    name: 'ChartView',
   });
   </script>

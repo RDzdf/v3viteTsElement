@@ -8,7 +8,7 @@
         <el-input placeholder="Search" prefix-icon="el-icon-search" v-model="searchInput"></el-input>
       </el-col>
       <el-col :span="6" class="right-section">
-        <el-button type="text" @click="toggleLang">{{ lang }}</el-button>
+        <el-link @click="toggleLang">{{ lang }}</el-link>
         <el-dropdown trigger="click">
           <span class="el-dropdown-link">
             User Info<i class="el-icon-arrow-down el-icon--right"></i>
@@ -26,7 +26,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref } from 'vue';
 
 const searchInput = ref('');

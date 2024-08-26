@@ -17,10 +17,9 @@
   </el-menu>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useRoute, useRouter } from 'vue-router';
 import SidebarItem from './SidebarItem.vue';
-
 // 获取当前路由
 const route = useRoute();
 // 获取 Vue Router 实例

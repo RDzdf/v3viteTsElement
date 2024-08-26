@@ -20,7 +20,7 @@
   </li>
 </template>
 
-<script setup>
+<script setup lang="ts">
 defineProps({
   route: {
     type: Object,
@@ -28,3 +28,5 @@ defineProps({
   }
 });
 </script>
+
+<style></style>
